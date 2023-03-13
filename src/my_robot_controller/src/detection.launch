@@ -1,0 +1,4 @@
+<launch>
+	<node name="ultrasound_node" pkg="my_robot_controller" type="ultrasound_node.py" output="screen"/> 
+	<node name="motor_control" pkg="my_robot_controller" type="motor_control.py"/>
+</launch>

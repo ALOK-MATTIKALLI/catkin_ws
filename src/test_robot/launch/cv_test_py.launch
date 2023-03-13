@@ -1,0 +1,14 @@
+<launch>
+  <node
+    pkg="test_robot"
+    type="new_line_pub.py"
+    name="new_line_pub"
+    output="screen"
+  />
+  <node
+    pkg="test_robot"
+    type="new_line_sub.py"
+    name="new_line_sub"
+    output="screen"
+  />
+</launch>
